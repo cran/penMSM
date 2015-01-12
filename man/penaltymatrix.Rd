@@ -4,12 +4,12 @@
 \description{This builds up a penalty matrix needed for the
   penalized estimation of multistate models.}
 \usage{
-penaltymatrix(lambda, D, beta, w, constant)
+penaltymatrix(lambda, PSM, beta, w, constant)
 }
 \arguments{
   \item{lambda}{vector with penalty parameters for the respective penalty
     components.}
-  \item{D}{matrix containing the penalty structure vectors \code{dl} as rows.}
+  \item{PSM}{penalty structure matrix containing the penalty structure vectors \code{psv} as rows.}
   \item{beta}{vector of regression coefficients.}
   \item{w}{vector containing weights for the respective penalty components.}
   \item{constant}{constat that is needed for the locally (in the
@@ -21,5 +21,5 @@ penaltymatrix(lambda, D, beta, w, constant)
 \value{A penalty matrix \code{plambda}.}
 \author{Holger Reulen}
 \examples{
-\dontrun{penaltymatrix(lambda, D, beta, w, constant)}
+\dontrun{penaltymatrix(lambda, PSM, beta, w, constant)}
 }

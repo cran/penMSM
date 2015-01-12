@@ -1,12 +1,15 @@
 Package: penMSM
-Title: Estimating regularized multistate models using L1 penalties.
-Version: 0.97
-Date: 2014-07-02
+Type: Package
+Title: Estimating Regularized Multi-state Models Using L1 Penalties
+Version: 0.99
+Date: 2015-01-12
 Author: Holger Reulen
 Maintainer: Holger Reulen <hreulen@uni-goettingen.de>
-Description: This package provides features for L1 penalized estimation of multistate models with the penalty applied to absolute effects and absolute effect differences (i.e., effects on transition-type specific hazard rates).
+Description: Structured fusion Lasso penalized estimation of multi-state models with the penalty applied to absolute effects and absolute effect differences (i.e., effects on transition-type specific hazard rates).
 License: GPL (>= 2)
-Packaged: 2014-07-02 09:00:31 UTC; Holger Reulen
-NeedsCompilation: no
+Imports: Rcpp (>= 0.11.3)
+LinkingTo: Rcpp
+Packaged: 2015-01-12 12:43:14 UTC; Holger Reulen
+NeedsCompilation: yes
 Repository: CRAN
-Date/Publication: 2014-07-02 11:29:20
+Date/Publication: 2015-01-12 14:41:14

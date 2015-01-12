@@ -1,1 +1,3 @@
+useDynLib(penMSM)
 exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)

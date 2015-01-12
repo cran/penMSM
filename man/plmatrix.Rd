@@ -4,11 +4,11 @@
 \description{This function establishes the single vectors that set up
   the penalty matrix in function \code{penaltymatrix}.}
 \usage{
-plmatrix(dl, beta, constant)
+plmatrix(psv, beta, constant)
 }
 \arguments{
-  \item{dl}{index vector that determines the l-th penalty component
-    when multyplied with \code{beta}.}
+  \item{psv}{index vector that determines the l-th penalty component
+    when multiplied with \code{beta}.}
   \item{beta}{vector of regression coefficients.}
   \item{constant}{constant that is needed for the locally (in the
     neighborhood of 0) quadratical approximation of the absolute value
@@ -22,5 +22,5 @@ plmatrix(dl, beta, constant)
   component.}
 \author{Holger Reulen}
 \examples{
-\dontrun{plmatrix(dl, beta, constant)}
+\dontrun{plmatrix(psv, beta, constant)}
 }

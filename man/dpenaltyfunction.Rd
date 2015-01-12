@@ -3,10 +3,10 @@
 \title{First derivative of the penalty function.}
 \description{This function implements the first derivative of the penalty function.}
 \usage{
-dpenaltyfunction(dl, beta)
+dpenaltyfunction(psv, beta)
 }
 \arguments{
-\item{dl}{penalty structure vector.}
+\item{psv}{penalty structure vector.}
 \item{beta}{estimated regression effects.}
 }
 \details{This function implements the first derivative of the
@@ -18,5 +18,5 @@ dpenaltyfunction(dl, beta)
   is always 1, since the penalty fucntion p(xi)=xi is just the identity).}
 \author{Holger Reulen}
 \examples{
-\dontrun{dpenaltyfunction(dl, beta)}
+\dontrun{dpenaltyfunction(psv, beta)}
 }
